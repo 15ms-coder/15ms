@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Navigationsbar*/
+nav {
+    background-color: #000000;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+}
+/*Navigationsbar*/
+.navigationsbar {
+    list-style: none;
+}
+/*Box der Navigationsbar*/
+.navbox{
+     float: right;
+     font-family: 'Ubuntu', sans-serif;
+     background-color: #000000;
+     width: 150px;
+     text-align: center;
+     padding-top: 15px;
+     padding-bottom: 10px;
+}
+
+.text {
+     display: block;
+     color: white;
+     padding: 22px 22px;
+     text-decoration: none; 
+     text-align: center;
+     transition: 200ms;
+     letter-spacing: 0.5px;
+     font-size: 16px;
+    }
+/*WEnn man über den Text hover*/
+.text:hover {
+      background-color: #333;
+      border-right:solid rgb(4, 0, 255);
+    }
+
+.navbox2 {
+    display: none;
+    text-align: center;
+}
+/*Wenn man über die Box hovert*/
+.navbox:hover .navbox2{
+    display: block;
+
+
+}
+/*Mein Bild auf der Homepage*/
+.Picture1{
+    background-image: url(Images/Jasin.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+}
+/*Impressium ganz unten im Footer*/
+.Copyright{
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+/*Footer*/
+footer{
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+
+
+}
+/*Willkommens Text auf der Homepage*/
+.Willkommen{
+    color: white;
+    font-size: 10vw;
+    padding-top: 320px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+/*Mein Name in der Navigationsbar*/
+.NameNav{
+    color: white;
+    text-align: left;
+    padding-top: 35.5px;
+    padding-left: 50px;
+}
+
+/*Footer Copyright, Impressum, Open source e.t.c*/
+.Opensource{
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+/*Footer Copyright, Impressum, Open source e.t.c*/
+.Opensource2{
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+/*Footer Copyright, Impressum, Open source e.t.c*/
+.Impressum{
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+/*footer*/
+.Divfooter{
+  color: white;
+  margin-left: 0px;
+  padding: 0;
+  text-align: center;
+  background-color: black;
+
+}
+/*Impressum Titel*/
+.Impressumname{
+  color:white;
+  text-align: center;
+  font-size: ;
+  padding-top: 130px;
+  margin-bottom: 75px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.Opensource:hover{
+  color:#78c0ff;
+}
+
+.Impressum:hover{
+  color:#78c0ff;
+}
+
+.Opensource2:hover{
+  color:#78c0ff;
+}
+
+#bodyhome{
+  background-color: black;
+}
+
+/*Body von jeder Seite ausser Homepage*/
+
+
+.Impressumtext{
+  color: white;
+}
+
+p{
+  text-align: center;
+  color: white;
+  padding-top: 2px;
+  letter-spacing: 0.5px;
+  text-overflow: ;
+}
+
+.Kontaktadresse{
+  color: #78c0ff;
+}
+
+.Haftungsausschluss{
+  color: #78c0ff;
+}
+
+.Linkss{
+  color: #78c0ff;
+}
+
+.Urheber{
+  color: #78c0ff;
+}
+
+.Kontaktname{
+  color:white;
+  text-align: center;
+  font-size: 6vw;
+  padding-top: 130px;
+  margin-bottom: 75px;
+  font-family: 'Catamaran', sans-serif;
+  margin-bottom: -10px;
+}
+
+body{
+  background-color: #26292A;
+}
+
+.ubermichhh{
+  color:white;
+  text-align: center;
+  font-size: 6vw;
+  padding-top: 130px;
+  margin-bottom: 75px;
+}
+
+
+/*W3SCHOOLS*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid ; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #78c0ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #0088ff;
+}
+
+/*W3SCHOOLS*/
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #26292A;
+  padding: 20px;
+}
+
+.textkontakt{
+  color: #78c0ff;
+  font-family: 'Catamaran', sans-serif; 
+}
+/*google maps in Kontakt*/
+.Googlemaps{
+ width: 100%;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.bild1 { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  padding-top: 200px;
+  margin-top: -99px;
+  border-radius: 50%;
+}
+
+.fortnite{
+  text-align: center;
+  color: white;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 70px;
+}
+
+.thatsme{
+  color: white;
+  text-align: center;
+  color: #78c0ff;
+  font-family: 'Public Sans', sans-serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+.navbox{
+    width: 33.333%;
+}
+.text{
+  font-size: 14px;
+}
+}
+
+.Bildhobby1{
+  float: left;
+  border-radius: 0%;
+  width: 370px;
+  height: auto;
+  padding-top: 200px;
+  padding-left: 70px;
+}
+
+.uebermichhh{
+  font-family: 'Public Sans', sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 70px;
+}
+
+.bild2{ 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  padding-top: 120px;
+  margin-top: -99px;
+  border-radius: 50%;
+}
+
+.Textbil1{
+  color: wihte;
+  font-family: 'Public Sans', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+
+.Textuebermichl{
+  font-family: 'Public Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+img {
+  float: left;
+  border-radius: 0%;
+  padding-top: 10px;
+}
+
+.Match{
+  color:#78c0ff ;
+  font-family: 'Public Sans', sans-serif;
+  text-align: center;
+}
+
+.bild3{ 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  padding-top: 170px;
+  margin-top: -99px;
+  border-radius: 50%;
+}
+
+.Training{
+  color:#78c0ff ;
+  font-family: 'Public Sans', sans-serif;
+  text-align: center;
+}
+
+.Textbil2{
+  color: wihte;
+  font-family: 'Public Sans', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.bild4{ 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  padding-top: 170px;
+  margin-top: -99px;
+  border-radius: 50%;
+}
+
+.Textbil3{
+  color: wihte;
+  font-family: 'Public Sans', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.Trainingslager{
+  color:#78c0ff ;
+  font-family: 'Public Sans', sans-serif;
+  text-align: center;
+}
+
+.TitelHobby{
+  color:white;
+  text-align: center;
+  font-size: 70px;
+  padding-top: 130px;
+  margin-bottom: 75px;
+  font-family: 'Public Sans', sans-serif;
+}
